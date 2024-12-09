@@ -67,5 +67,7 @@ A iluminação no sistema solar é configurada para simular a luz emitida pelo S
     python main.py
     ```
 
-3. Controles
+3. Controles:
+    ```bash
     ESC: Sair do programa.
+    ```
