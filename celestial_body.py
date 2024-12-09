@@ -3,7 +3,7 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 import math
 
-class CorpoCeleste:
+class CelestialBody:
     #Construtor
     def __init__(self, name, texture_path, size, distance_from_center=0, 
                  orbit_speed=0, rotation_speed=0, rings=False, rings_texture_path=None):

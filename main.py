@@ -2,7 +2,7 @@ import pygame
 from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
-from corpo_celeste import CorpoCeleste
+from celestial_body import CelestialBody
 
 #Função para configurar o OpenGL
 def setup_opengl():
@@ -35,21 +35,21 @@ def main():
     setup_opengl()
 
     #Instancia o objeto de fundo com tamanho 200
-    background = CorpoCeleste("Fundo", "assets/textures/milky_way.jpg", 200)
+    background = CelestialBody("Fundo", "assets/textures/milky_way.jpg", 200)
 
     #Instancia o objeto do Sol com tamanho 5
-    sun = CorpoCeleste("Sol", "assets/textures/sun.jpg", 5)
+    sun = CelestialBody("Sol", "assets/textures/sun.jpg", 5)
 
     #Instancia os planetas com seus respectivos atributos no array
     planets = [
-        CorpoCeleste("Mercúrio", "assets/textures/mercury.jpg", 0.5, 6, 1, 0.5),
-        CorpoCeleste("Vênus", "assets/textures/venus.jpg", 1, 9, 0.8, 0.4),
-        CorpoCeleste("Terra", "assets/textures/earth.jpg", 1.2, 12, 0.6, 0.3),
-        CorpoCeleste("Marte", "assets/textures/mars.jpg", 0.9, 15, 0.5, 0.25),
-        CorpoCeleste("Júpiter", "assets/textures/jupiter.jpg", 3, 20, 0.3, 0.2),
-        CorpoCeleste("Saturno", "assets/textures/saturn.jpg", 2.5, 25, 0.2, 0.15, rings=True, rings_texture_path="assets/textures/saturn_ring.png"),
-        CorpoCeleste("Urano", "assets/textures/uranus.jpg", 2, 30, 0.15, 0.1),
-        CorpoCeleste("Netuno", "assets/textures/neptune.jpg", 2, 35, 0.1, 0.05),
+        CelestialBody("Mercúrio", "assets/textures/mercury.jpg", 0.5, 6, 1, 0.5),
+        CelestialBody("Vênus", "assets/textures/venus.jpg", 1, 9, 0.8, 0.4),
+        CelestialBody("Terra", "assets/textures/earth.jpg", 1.2, 12, 0.6, 0.3),
+        CelestialBody("Marte", "assets/textures/mars.jpg", 0.9, 15, 0.5, 0.25),
+        CelestialBody("Júpiter", "assets/textures/jupiter.jpg", 3, 20, 0.3, 0.2),
+        CelestialBody("Saturno", "assets/textures/saturn.jpg", 2.5, 25, 0.2, 0.15, rings=True, rings_texture_path="assets/textures/saturn_ring.png"),
+        CelestialBody("Urano", "assets/textures/uranus.jpg", 2, 30, 0.15, 0.1),
+        CelestialBody("Netuno", "assets/textures/neptune.jpg", 2, 35, 0.1, 0.05),
     ]
     
     #Loop principal
