@@ -2,8 +2,6 @@
 
 Este projeto simula um sistema solar 3D utilizando **Python**, **Pygame** e **PyOpenGL**. Ele apresenta planetas texturizados orbitando uma estrela central (Sol), com suporte a anéis para planetas como Saturno.
 
-## Visualização do Sistema Solar
-
 ![Sistema Solar](assets/sistema_solar.png)
 
 ## Funcionalidades
@@ -39,7 +37,9 @@ A iluminação no sistema solar é configurada para simular a luz emitida pelo S
 
 ### Texturas
 - As texturas são carregadas usando a biblioteca **Pygame** e mapeadas nos corpos celestes utilizando **OpenGL**.
-- As texturas permitem uma representação visual mais realista dos corpos celestes, com detalhes como cores e padrões específicos.
+- Elas permitem uma representação visual mais realista dos corpos celestes, com detalhes como cores e padrões específicos.
+- As texturas utilizadas neste projeto foram obtidas do site Solar System Scope, que disponibiliza texturas de alta qualidade dos corpos celestes do sistema solar.
+- As texturas estão licenciadas sob a Licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0). Isso significa que você pode usar, compartilhar e adaptar as texturas, desde que forneça a devida atribuição conforme as condições dessa licença.
 
 ### Órbita e Rotação
 - **Órbita (Translação)**: Cada planeta possui uma velocidade de translação que define seu movimento em torno do Sol. Este movimento é configurado para cada planeta individualmente.
