@@ -12,6 +12,7 @@ Este projeto simula um sistema solar 3D utilizando **Python**, **Pygame** e **Py
 - Texturas realistas aplicadas aos corpos celestes.
 - Iluminação dinâmica para simular efeitos de luz.
 - Suporte para visualizar os anéis de planetas (como Saturno).
+- Fundo espacial com uma textura da via láctea, proporcionando um ambiente mais imersivo.
 
 ---
 
@@ -40,6 +41,11 @@ A iluminação no sistema solar é configurada para simular a luz emitida pelo S
 - Elas permitem uma representação visual mais realista dos corpos celestes, com detalhes como cores e padrões específicos.
 - As texturas utilizadas neste projeto foram obtidas do site Solar System Scope, que disponibiliza texturas de alta qualidade dos corpos celestes do sistema solar.
 - As texturas estão licenciadas sob a Licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0). Isso significa que você pode usar, compartilhar e adaptar as texturas, desde que forneça a devida atribuição conforme as condições dessa licença.
+
+### Fundo (background)
+- O fundo do sistema solar é representado por uma textura da via láctea (milky_way.jpg), adicionando uma sensação de profundidade ao ambiente.
+- A textura é carregada como um corpo celeste em si, com um tamanho suficientemente grande para cobrir toda a cena, criando a sensação de estar no espaço.
+- O fundo é posicionado de forma a sempre se manter fixo, não movendo-se durante a simulação da órbita dos planetas, criando um efeito de imersão no espaço tridimensional.
 
 ### Órbita e Rotação
 - **Órbita (Translação)**: Cada planeta possui uma velocidade de translação que define seu movimento em torno do Sol. Este movimento é configurado para cada planeta individualmente.
