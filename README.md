@@ -10,7 +10,7 @@ Este projeto simula um sistema solar 3D utilizando **Python**, **Pygame** e **Py
 - Órbitas com velocidades personalizáveis para cada planeta.
 - Rotação individual dos planetas sobre seus eixos.
 - Texturas realistas aplicadas aos corpos celestes.
-- Iluminação dinâmicas para simular efeitos de luz.
+- Iluminação dinâmica para simular efeitos de luz.
 - Suporte para visualizar os anéis de planetas (como Saturno).
 
 ---
@@ -52,8 +52,8 @@ A iluminação no sistema solar é configurada para simular a luz emitida pelo S
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/sistema-solar-opengl.git
-   cd sistema-solar-opengl
+   git clone https://github.com/Kenjix/pygame-solar-system.git
+   cd pygame-solar-system
    ```
 
 2. Execute o programa:
