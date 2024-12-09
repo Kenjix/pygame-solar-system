@@ -68,6 +68,4 @@ A iluminação no sistema solar é configurada para simular a luz emitida pelo S
     ```
 
 3. Controles:
-    ```bash
-    ESC: Sair do programa.
-    ```
+- **ESC**: Sair do programa.
