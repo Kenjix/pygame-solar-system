@@ -2,6 +2,10 @@
 
 Este projeto simula um sistema solar 3D utilizando **Python**, **Pygame** e **PyOpenGL**. Ele apresenta planetas texturizados orbitando uma estrela central (Sol), com suporte a anéis para planetas como Saturno.
 
+## Visualização do Sistema Solar
+
+![Sistema Solar](assets/sistema_solar.png)
+
 ## Funcionalidades
 
 - Representação em 3D de corpos celestes (Sol, planetas e anéis).
